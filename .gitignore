@@ -1,0 +1,35 @@
+# ─── OS ───────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+
+# ─── Environment ──────────────────────────────────────
+.env
+.env.local
+.env.*.local
+
+# ─── Frontend (Next.js) ───────────────────────────────
+Frontend/node_modules/
+Frontend/.next/
+Frontend/out/
+Frontend/.turbo/
+Frontend/coverage/
+Frontend/*.tsbuildinfo
+
+# ─── Backend (Go) ─────────────────────────────────────
+Backend/bin/
+Backend/tmp/
+Backend/*.exe
+Backend/*.test
+Backend/coverage.out
+
+# ─── AI Services ──────────────────────────────────────
+AI-Services/__pycache__/
+AI-Services/*.pyc
+AI-Services/.venv/
+AI-Services/venv/
+
+# ─── IDE ──────────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
